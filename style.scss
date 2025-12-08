@@ -25,11 +25,53 @@ header {
 }
 
 .banner {
-    
-    #nomeDoPet {
+    background-color: #edede9;
+    height: 65vh;
+    padding: 30px;
+
+    article {
+        border: solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .info_Pet {
+            p {
+                width: 50%;
+            }
+        }
+
+    }
+
+
+}
+
+#nomeDoPet {
         color: #F97415;
         font-weight: 700;
         font-size: 3.75rem;
     }
+//galeria de imagens circulares
+.galeriaPet {
+    display: flex;
+    justify-content: space-between;
+}
 
+        .pet {
+            border: solid red;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .descricao {
+
+            }
+
+        .img_Pet {
+            width: 50%;
+            height: 20vh;
+            border-radius: 90%;
+    }
 }

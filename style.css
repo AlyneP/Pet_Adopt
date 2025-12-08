@@ -23,8 +23,42 @@ header .first_btn {
   cursor: pointer;
 }
 
-.banner #nomeDoPet {
+.banner {
+  background-color: #edede9;
+  height: 65vh;
+  padding: 30px;
+}
+.banner article {
+  border: solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner article .info_Pet p {
+  width: 50%;
+}
+
+#nomeDoPet {
   color: #F97415;
   font-weight: 700;
   font-size: 3.75rem;
+}
+
+.galeriaPet {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pet {
+  border: solid red;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.pet .img_Pet {
+  width: 50%;
+  height: 20vh;
+  border-radius: 90%;
 }/*# sourceMappingURL=style.css.map */
