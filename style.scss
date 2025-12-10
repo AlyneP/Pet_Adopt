@@ -65,9 +65,9 @@ header {
             align-items: center;
             text-align: center;
 
-            .descricao {
-
-            }
+            .descricao , .nome {
+            display: none;
+        }
 
         .img_Pet {
             width: 50%;

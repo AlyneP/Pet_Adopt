@@ -57,6 +57,9 @@ header .first_btn {
   align-items: center;
   text-align: center;
 }
+.pet .descricao, .pet .nome {
+  display: none;
+}
 .pet .img_Pet {
   width: 50%;
   height: 20vh;
